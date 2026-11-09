@@ -105,7 +105,7 @@ Ecommerce/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ecommerce-go-api.git
+git clone https://github.com/Ziddann/ecommerce-go-api.git
 cd ecommerce-go-api
 ```
 
