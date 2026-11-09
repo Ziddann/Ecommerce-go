@@ -1,0 +1,11 @@
+package dto
+
+type CreateCategoryRequest struct {
+    Name        string `json:"name" binding:"required,min=3,max=100"`
+    Description string `json:"description"`
+}
+
+type UpdateCategoryRequest struct {
+    Name        string `json:"name" binding:"required,min=3,max=100"`
+    Description string `json:"description"`
+}
